@@ -17,7 +17,6 @@ Provides:	TEI-style-html
 Requires:	TEI-DTD
 Requires(Pre):	sgml-common >= 0.6.3-2mdk
 
-BuildRoot   	: %{_tmppath}/%{name}-%{version}-buildroot 
 
 # ZIP spurce downloadable at http://sourceforge.net/project/showfiles.php?group_id=106328&package_id=141124
 Source0		: %{name}-%{Version}.tar.bz2
